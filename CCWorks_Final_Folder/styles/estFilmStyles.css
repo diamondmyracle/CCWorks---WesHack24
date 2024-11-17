@@ -1,0 +1,150 @@
+/* CSS for Individual (already established) Film Pages */
+
+@font-face {
+    font-family: 'Kenyan Coffee Reg';
+    src: url('kenyan-coffee/kenyancoffeerg.otf');
+}
+
+@font-face {
+    font-family: 'Kenyan Coffee Reg It';
+    src: url('kenyan-coffee/kenyancoffeergit.otf');
+}
+
+@font-face {
+    font-family: 'Kenyan Coffee Bold';
+    src: url('kenyan-coffee/kenyancoffeebd.otf');
+}
+
+@font-face {
+    font-family: 'Kenyan Coffee Bold It';
+    src: url('kenyan-coffee/kenyancoffeebdit.otf');
+}
+
+
+/* Add a black background color to the top navigation */
+  .topnav {
+    background-color: #0d1317;
+    overflow: hidden;
+    text-align: right;
+    
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Kenyan Coffee Reg', sans-serif;
+    
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    padding: 20px;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #101d42;
+    color: #f2f2f2;
+  }
+
+  /* Styling the search bar*/
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    font-family: 'Kenyan Coffee Reg', sans-serif;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1.2fr 1.5fr 1fr;
+    column-gap: 5px;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  .movieText {
+    font-size: 1.5em;
+    padding-left: 5%;
+    font-family: 'Kenyan Coffee Reg', sans-serif;
+  }
+
+  .movieText a {
+    text-decoration: none;
+    color: #0d1317;
+  }
+
+  .movieText a:hover {
+    background-color: #101d42;
+    color: #f2f2f2;
+    padding: 5px;
+  }
+
+  .directorsection {
+    background-color: #101d42;
+    max-width: 100%;
+    position: absolute;
+    right: 0px;
+    
+    border: 3px solid #0d1317;
+    padding: 10px;
+    padding-bottom: 150px;;
+  }
+
+  .directorsection img{
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .directorsection h3 {
+    font-family: 'Kenyan Coffee Reg', sans-serif;
+    color: #f2f2f2;
+    text-align: center;
+  }
+
+  .directorsection h4 {
+    font-family: 'Kenyan Coffee Reg', sans-serif;
+    color: #f2f2f2;
+    text-align: center;
+  }
+
+  .directorsection p {
+    font-family: 'Kenyan Coffee Reg', sans-serif;
+    color: #f2f2f2;
+    text-align: left;
+    padding-bottom: 200px;
+
+    position: absolute;
+    right: 10px;
+    width: 300px;
+    padding: 10px;
+  }
+
+
+  .middlesection .trailer a {
+    text-decoration: none;
+    font-family: 'Kenyan Coffee Reg', sans-serif;
+  }
+
+  .middlesection h3 {
+    font-family: 'Kenyan Coffee Reg', sans-serif;
+  }
+
+  .middlesection p {
+    font-family: 'Kenyan Coffee Reg', sans-serif;
+  }
+
+  
